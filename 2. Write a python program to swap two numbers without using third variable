@@ -1,5 +1,5 @@
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
-sum_of_cubes = a**3 + b**3
+a, b = b, a
 
-print("Sum of cubes:", sum_of_cubes)
+print("After swapping: a =", a, "b =", b)
