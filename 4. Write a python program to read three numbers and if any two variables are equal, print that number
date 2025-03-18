@@ -1,6 +1,9 @@
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
-
-smallest = min(a, b, c)
-print("The smallest number is:", smallest)
+if a == b or a == c:
+    print("Equal number:", a)
+elif b == c:
+    print("Equal number:", b)
+else:
+    print("No equal numbers found.")
